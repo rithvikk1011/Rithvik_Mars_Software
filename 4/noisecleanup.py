@@ -31,6 +31,6 @@ def muchiko(values, window_size):
 x = int(input("Enter the window size: "))
 
 s_values = sanchiko(values, x)
-m_values = muchiko(s_values, x-2)
+m_values = muchiko(s_values, x)
 
 print(m_values)
